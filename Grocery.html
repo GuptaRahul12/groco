@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <title>Groco</title>
+  <script src="https://kit.fontawesome.com/69adfdfc9a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Project.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+      <a href="Home.html" class="Logo"><i class="fas fa-shopping-basket"></i>groco</a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Home.html">features</a>
+        <a href="Home.html">products</a>
+        <a href="Home.html">categories</a>
+        <a href="#contact info">contact us</a>
+        </nav>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-user-plus" id="register-btn"></div>
+      </div>
+  
+      <form action="" class="search-form">
+        <input type="search" id="search-form" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="onion.jpg" alt="">
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+           </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="potato.jpg" alt="">
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="tomato.jpg" alt="">
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $19.69/-</div>
+        <a href="#" class="btn">checkout</a>
+  
+      </div>
+      </div>
+  
+      <form action="" class="login-form" >
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="">click here</a></p>
+        <p>don't have an account <a href="#reg" id="create-now">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+      </form>
+  
+      <form action="" class="register-form" id="reg" >
+        <h3>Register now</h3>
+        <input type="text" placeholder="your Name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <label class="form-check-label" for="form2Example3">
+        <p> I agree all statements in <a href="">click here</a>Terms of service</p>
+        <input type="submit" value="register now" class="btn">
+      </form>
+    </header>
+  
+
+  
+   
+    <section class="products" id="products" style="margin-top: 70px;">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="wheat.jpg" alt="tomato">
+            <h3>Wheat</h3>
+            <div class="price">₹ 50/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="rice.jpg" alt="pumpkin">
+            <h3>Rice</h3>
+            <div class="price">₹ 60/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="dal.jpg" alt="brinjal">
+            <h3>Dal</h3>
+            <div class="price">₹ 60/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="chickpeas split.jpg" alt="bitter gourd">
+            <h3>Chickpeas Split</h3>
+            <div class="price">₹ 60/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="chickpeas.jpg" alt="tomato">
+            <h3>chickpeas</h3>
+            <div class="price">₹55/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="white chickpeas.jpg" alt="pumpkin">
+            <h3>White Chickpeas</h3>
+            <div class="price">₹ 70/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="sugar.jpg" alt="brinjal">
+            <h3>Sugar</h3>
+            <div class="price">₹ 50/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="mung dal.jpg" alt="bitter gourd">
+            <h3>Moong dal</h3>
+            <div class="price">₹ 50/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+  
+        </div>
+        </div>
+        
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="chawli.jpg" alt="tomato">
+            <h3>Chawli</h3>
+            <div class="price">₹ 80/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="corn dana.jpg" alt="pumpkin">
+            <h3>corn</h3>
+            <div class="price">₹ 90/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="mung beans.jpg" alt="brinjal">
+            <h3>"Mung beans</h3>
+            <div class="price">₹ 60/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          <div class="swiper-slide box">
+            <img src="moth beans.jpg" alt="bitter gourd">
+            <h3>Moth beans</h3>
+            <div class="price">₹ 75/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+            <input type="number" value="1" class="myquantity">
+          </div>
+          </div>
+        </div>
+        <div class="swiper products-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="pearl millet.jpg" alt="tomato">
+              <h3>Pearl millet</h3>
+              <div class="price">₹ 65/- </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="" class="btn">add to cart</a>
+              <input type="number" value="1" class="myquantity">
+            </div>
+            <div class="swiper-slide box">
+              <img src="red millet.jpg" alt="pumpkin">
+              <h3>Red millet</h3>
+              <div class="price">₹ 50/- </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="" class="btn">add to cart</a>
+              <input type="number" value="1" class="myquantity">
+            </div>
+            <div class="swiper-slide box">
+              <img src="sorghum millet.jpg" alt="brinjal">
+              <h3>Sorghum millet</h3>
+              <div class="price">₹ 70/- </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="" class="btn">add to cart</a>
+              <input type="number" value="1" class="myquantity">
+            </div>
+            <div class="swiper-slide box">
+              <img src="Beans.jpg" alt="bitter gourd">
+              <h3>Beans</h3>
+              <div class="price">₹ 50/- </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="" class="btn">add to cart</a>
+              <input type="number" value="1" class="myquantity">
+            </div>
+    
+          </div>
+          </div>
+    </section>
+  
+    
+  
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>groco <i class="fas fa-shopping-basket"></i></h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, dolor!</p>
+        <div class="share">
+          <a href="" class="fab fa-facebook-f"></a>
+          <a href="" class="fab fa-twitter"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3 id="contact info">contact info</h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#" class="links"><i class="fas fa-phone"></i> +111-222-3333 </a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i> rahulgupta@gmail.com </a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>mumbai, india -40010 </a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#" class="links"><i class="fas fa-phone"></i>home</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>features</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>product</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>categories</a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>blogs</a>
+      </div>
+      <div class="box">
+        <h3>news letter</h3>
+       <p>subscribe for latest updates</p>
+       <input type="email" placeholder="your email" class="email">
+       <input type="submit" value="subscribe" class="btn">
+       <img src="upi.jpg" class="payment-img" alt="">
+      </div>
+      
+    </div>
+    <div class="credit"> created by <span>mr. web designer</span> | all rights reserved</div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  
+  </body>
+  
+  </html>
